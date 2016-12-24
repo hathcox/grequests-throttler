@@ -1,10 +1,12 @@
-RequestsThrottler: HTTP requests throttler
+GRequestsThrottler: HTTP requests throttler
 ==========================================
 
-RequestsThrottler is an Apache2 Licensed HTTP library, written in Python, and powered by futures and `Requests <https://github.com/kennethreitz/requests>`_.
+-- This is a fork of RequestThrottler, created to support the grequests module.
+
+GRequestsThrottler is an Apache2 Licensed HTTP library, written in Python, and powered by futures and `Requests <https://github.com/kennethreitz/requests>`_.
 See the full documentation at `<http://pythonhosted.org/RequestsThrottler>`_.
 
-With RequestsThrottler you can easily throttle HTTP requests! After having created your throttler with a delay of your choice, you just have to:
+With GRequestsThrottler you can easily throttle HTTP requests! After having created your throttler with a delay of your choice, you just have to:
 
 1. Start the throttler 
 2. Submit your requests
